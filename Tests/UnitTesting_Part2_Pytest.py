@@ -1,6 +1,8 @@
 from Scripts.UnitTesting_Part2 import file_req
 import pytest
 
+# The following functions are used to test the implementation of file_req()
+
 
 def test_fn_when_find_file_meet_req():
     assert file_req(r"E:\Wallbox test") == "Executable 1.exe"

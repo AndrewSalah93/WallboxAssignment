@@ -1,6 +1,8 @@
 from Scripts.UnitTesting_Part1 import check_first_repeated_integer
 import pytest
 
+# The following functions are used to test the implementation of check_first_repeated_integer()
+
 
 def test_fn_return_first_repeated_number():
     assert check_first_repeated_integer([3, 2, 3], [2, 3]) == 3

@@ -1,6 +1,8 @@
 from Scripts.UnitTesting_Part3 import min_permutations_of_sequence
 import pytest
 
+# The following functions are used to test the implementation of min_permutations_of_sequence()
+
 
 def test_fn_returns_0_if_seq_perfectly_interspersed():
     assert min_permutations_of_sequence([0, 1, 0, 1]) == 0

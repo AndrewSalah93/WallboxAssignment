@@ -10,7 +10,7 @@ As required in the task, this project was written in Python. It consists of TWO 
 for each function a .py file is written.
 2. tests: The package that contains the tests for validating the functions' solutions in wallbox package 
 equivalent to each part using PyTest as a testing framework.
-3. references: This package contains the references needed to test 2nd function in Unit Testing Part.
+3. resources: This folder contains the resources needed to test 2nd function in Unit Testing Part.
 
 wallbox package:
 
